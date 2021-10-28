@@ -425,8 +425,8 @@ SP
   #company {
     height: auto;
     flex-direction: column;
-    /* position: static; */
-    position: relative;
+    position: static;
+    /* position: relative; */
   }
   /*
   「position: static;」でabsoluteを解除
@@ -437,7 +437,7 @@ SP
     padding: 40px 20px;
     margin-bottom: 20px;
     /* position: static; */
-    position: absolute;
+    position: relative;
   }
   /*
   「position: static;」でabsoluteを解除
@@ -446,8 +446,8 @@ SP
   #company .img {
     width: 100%;
     padding: 0;
-    /* position: static; */
-    position: absolute;
+    position: static;
+    /* position: absolute; */
   }
   #company .info {
     flex-direction: column;
