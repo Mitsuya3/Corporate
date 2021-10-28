@@ -436,17 +436,18 @@ SP
     width: 100%;
     padding: 40px 20px;
     margin-bottom: 20px;
-    /* position: static; */
-    position: relative;
+    position: static;
+    /* position: relative; */
   }
   /*
   「position: static;」でabsoluteを解除
   relativeが指定されている”親要素”を基準にして、自分の位置を決定
   */
   #company .img {
-    width: 100%;
+    display: none;
+    /* width: 100%;
     padding: 0;
-    position: static;
+    position: static; */
     /* position: absolute; */
   }
   #company .info {
